@@ -9,6 +9,7 @@ function onFirstLoad(build_spec){
       //addExample("on-demand")
       loadFlows(data["x-flows"])
       loadAttributes(data["x-attributes"])
+      
 }
 
 window.onload = function(){
